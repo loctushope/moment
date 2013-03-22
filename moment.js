@@ -8,7 +8,7 @@
 (function (Date, undefined) {
 
     var moment,
-        round = Math.round,
+        round = Math.round
         languages = {},
         hasModule = (typeof module !== 'undefined'),
         paramsToParse = 'months|monthsShort|weekdays|weekdaysShort|longDateFormat|relativeTime|ordinal|meridiem'.split('|'),
